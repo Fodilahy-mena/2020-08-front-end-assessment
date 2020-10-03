@@ -1,0 +1,428 @@
+/* Import all the css files here */
+/* The font css file is here */
+@font-face {
+  font-family: myLatoBold;
+  src: local("Lato Bold"), local("Lato-Bold"), local("lato-bold"), local("lato bold"), url("../fonts/any_conv.com__lato-bold.woff2") format("woff2"), url("../fonts/any_conv.com__lato-bold.woff") format("woff"); }
+
+.heading {
+  font-family: myLatoBold;
+  letter-spacing: 0.03em;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px; }
+
+@media (min-width: 1114px) {
+  .heading {
+    font-size: 36px;
+    line-height: 48px; } }
+
+/* The Lato regular font link is in here */
+@font-face {
+  font-family: myLatoRegular;
+  src: local("Lato Regular"), local("Lato-Regular"), local("lato-regular"), local("lato regular"), url("../fonts/any_conv.com__lato-regular.woff2") format("woff2"), url("../fonts/any_conv.com__lato-regular.woff") format("woff"); }
+
+.description {
+  font-family: myLatoRegular;
+  color: #4F4F4F;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 453px; }
+
+@media (min-width: 1114px) {
+  .description {
+    font-size: 18px;
+    line-height: 26px; } }
+
+/* This is a link to default css */
+body {
+  background-color: rgba(244, 246, 249, 0.8);
+  display: block;
+  max-width: 100%;
+  min-width: auto;
+  max-height: 100%;
+  min-height: auto;
+  margin: 0; }
+
+section {
+  padding: 21px; }
+
+@media (min-width: 1114px) {
+  body > main > header {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position-x: 544px;
+    background-position-y: -177px;
+    background-size: 70%; } }
+
+/* This is a link to header css */
+.logo--sports--img {
+  max-width: 186px;
+  min-width: 186px;
+  min-height: 70px;
+  max-height: 70px; }
+
+.a11y {
+  text-align: center;
+  padding-block-end: 59px; }
+
+.a11y h1 {
+  margin: 0;
+  top: 30px;
+  position: relative; }
+
+.navigation {
+  position: relative;
+  padding-block-start: 70px; }
+
+@media (min-width: 1114px) {
+  .a11y {
+    text-align: unset;
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+    padding-right: 8rem;
+    padding-left: 8rem; }
+  .logo--sports--img {
+    max-width: 92px;
+    min-width: 92px;
+    min-height: 32px;
+    max-height: 32px; }
+  body > header h1 {
+    margin: 0;
+    top: 63px;
+    position: relative; }
+  .navigation {
+    max-width: 546px;
+    padding-block-start: 133px; } }
+
+/* This is a link to masthead css */
+header h2 {
+  position: relative; }
+
+.navigation__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  padding-block-start: 2rem;
+  margin: 0;
+  list-style: none; }
+
+.google {
+  padding-inline-start: 8px; }
+
+.app-store {
+  padding-inline-end: 8px; }
+
+.apple--image,
+.google--image {
+  max-width: 100%;
+  min-width: 100%; }
+
+@media (min-width: 1114px) {
+  .navigation__body {
+    justify-content: left;
+    padding-inline-start: 0; }
+  .description {
+    margin-left: 0; } }
+
+.section_started {
+  text-align: center;
+  background-color: white;
+  padding-block-start: 2rem;
+  padding-block-end: 610px; }
+
+.section_started {
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: calc(100% + 684px);
+  width: auto;
+  height: 403px; }
+
+@media (min-width: 1114px) {
+  .section_started {
+    padding-block-start: 215px;
+    padding-block-end: 171px;
+    background-position: calc(50% + 300px);
+    max-width: 1114px;
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
+  .section_started header {
+    text-align: left; }
+  .section_started article {
+    text-align: left;
+    max-width: 556px;
+    padding-bottom: 10rem; }
+  .section_started__learn_more {
+    margin: 0;
+    margin-block-start: 54px; } }
+
+.article_image img {
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  display: block; }
+
+.section_started h3 {
+  font-family: myLatoBold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+  text-transform: uppercase; }
+
+.section_started h4 {
+  font-family: myLatoBold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333; }
+
+.section_started p {
+  font-family: myLatoRegular;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4F4F4F; }
+
+.section_started__learn_more a {
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #00ADEE; }
+
+.section_features {
+  text-align: center;
+  background-color: #F4F6F9; }
+
+.features_info {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 0;
+  list-style: none; }
+
+.features_info ul {
+  list-style: none; }
+
+.features_info li {
+  padding-bottom: 2rem;
+  font-family: myLatoRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4F4F4F; }
+
+.section_features > header h4 {
+  font-family: myLatoBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px; }
+
+.video_collection,
+.notification,
+.brand_team,
+.flag_identification,
+.new_picture,
+.league_champion {
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  background-position: center; }
+
+.video_collection {
+  background-image: url(../img/icon_video_blue.svg); }
+
+.notification {
+  background-image: url(../img/icon_bell_ringing_blue.svg); }
+
+.brand_team {
+  background-image: url(../img/icon_hd_blue.svg); }
+
+.flag_identification {
+  background-image: url(../img/icon_flag_blue.svg); }
+
+.new_picture {
+  background-image: url(../img/icon_tent_blue.svg); }
+
+.league_champion {
+  background-image: url(../img/icon_graph_blue.svg); }
+
+@media (min-width: 1114px) {
+  .section_features {
+    text-align: left;
+    background-color: #00ADEE;
+    color: #FFFFFF;
+    max-width: 1114px;
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
+  .section_features h4 {
+    text-align: center; }
+  .features_info {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem; }
+  .features_info ul {
+    padding: 0;
+    list-style: inside; }
+  .features_info li {
+    color: #FFFFFF; }
+  .video_collection {
+    background-image: url(../img/icon_video_white.svg); }
+  .notification {
+    background-image: url(../img/icon_bell_ringing_white.svg); }
+  .brand_team {
+    background-image: url(../img/icon_hd_white.svg); }
+  .flag_identification {
+    background-image: url(../img/icon_flag_white.svg); }
+  .new_picture {
+    background-image: url(../img/icon_tent_white.svg); }
+  .league_champion {
+    background-image: url(../img/icon_graph_white.svg); }
+  .video_collection,
+  .notification,
+  .brand_team,
+  .flag_identification,
+  .new_picture,
+  .league_champion {
+    background-position: left; } }
+
+.section_guide--communication {
+  text-align: center;
+  background-color: #F4F6F9; }
+
+.section_guide--communication > header h4 {
+  font-family: myLatoBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333; }
+
+.guide_navigation ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.guide_navigation > ul li:nth-of-type(1) {
+  grid-column: 1/3; }
+
+.guide_navigation > ul li:nth-of-type(2) {
+  grid-column: 3/5; }
+
+.guide_navigation > ul li:nth-of-type(4) {
+  grid-column: 2/4; }
+
+.guide_navigation > ul li:nth-of-type(6) {
+  grid-column: 1/5; }
+
+@media (min-width: 1114px) {
+  .section_guide--communication {
+    max-width: 1114px;
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
+  .guide_navigation > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto; } }
+
+footer {
+  background-color: #00ADEE;
+  padding: 21px; }
+
+footer h2 {
+  background-image: url(../img/logo_sports_white.svg);
+  display: block;
+  text-indent: -999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 84px; }
+
+footer ul {
+  margin: 0;
+  list-style: none;
+  padding: 0; }
+
+.icons {
+  display: flex;
+  flex-direction: row; }
+
+.twitter,
+.facebook,
+.instagram {
+  display: block;
+  text-indent: -999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 25px;
+  height: 25px; }
+
+.twitter {
+  background-image: url(../img/icon_twitter.svg); }
+
+.facebook {
+  background-image: url(../img/icon_facebook.svg);
+  margin-inline-start: 1rem; }
+
+.instagram {
+  background-image: url(../img/icon_instagram.svg);
+  margin-inline-start: 1rem; }
+
+.accessibitity {
+  display: flex;
+  padding-block-start: 34px;
+  padding-block-end: 34px; }
+
+.accessibitity > li a {
+  text-decoration: none;
+  font-family: myLatoBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF; }
+
+.accessibitity > li {
+  margin-right: 2rem; }
+
+@media (min-width: 1114px) {
+  footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block-start: 50px;
+    padding-block-end: 50px; }
+  footer {
+    max-width: 1114px;
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
+  .accessibitity {
+    padding-block-start: 0;
+    padding-block-end: 0; }
+  footer h2 {
+    margin: 0; }
+  .icons {
+    order: 3; } }

@@ -1,0 +1,59 @@
+@import 'variables';
+
+// main > header {
+//   padding-inline-end: $padding;
+//   padding-inline-start: $padding;
+// }
+
+.logo--sports--img {
+  max-width: 186px;
+  min-width: 186px;
+  min-height: 70px;
+  max-height: 70px;
+}
+
+.a11y {
+  text-align: $centered;
+  padding-block-end: 59px;
+}
+
+.a11y h1 {
+  margin: 0;
+  top: 30px;
+  position: relative;
+}
+.navigation {
+  position: relative;
+  padding-block-start: 70px;
+
+}
+
+@media (min-width: $max-width-container) {
+  .a11y {
+    text-align: unset;
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+
+
+  }
+  .logo--sports--img {
+    max-width: 92px;
+    min-width: 92px;
+    min-height: 32px;
+    max-height: 32px;
+  }
+  body > header h1 {
+    margin: 0;
+    top: 63px;
+    position: relative;
+  }
+  .navigation {
+    max-width: 546px;
+    padding-block-start: 133px;
+  }
+}

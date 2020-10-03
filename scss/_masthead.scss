@@ -1,0 +1,40 @@
+@import 'variables';
+
+header h2 {
+  position: relative;
+  ;
+}
+.navigation__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: $centered;
+  padding: 0;
+  padding-block-start: 2rem;
+  @include reset-list;
+}
+.google {
+  padding-inline-start: 8px;
+}
+.app-store {
+  padding-inline-end: 8px;
+}
+
+.apple--image,
+.google--image {
+  max-width: $percentage-max-width;
+  min-width: $percentage-max-width;
+}
+
+// .google--image {
+//   max-width: 100%;
+//   min-width: 100%;
+// }
+@media (min-width: $max-width-container) {
+  .navigation__body {
+  justify-content: left;
+  padding-inline-start: 0;
+}
+.description {
+  margin-left: 0;
+}
+}

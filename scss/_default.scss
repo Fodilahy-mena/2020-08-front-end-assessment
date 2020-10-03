@@ -1,0 +1,26 @@
+@import 'variables';
+
+body {
+  background-color: rgba(244,246,249, 0.8);
+  display: block;
+  max-width: $percentage-max-width;
+  min-width: $auto;
+  max-height: $percentage-max-width;
+  min-height: $auto;
+  margin: 0;
+}
+section {
+  padding: $padding;
+}
+@media (min-width: $max-width-container) {
+
+  body > main > header {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position-x: 544px;
+    background-position-y: -177px;
+    background-size: $percentage-max-width - 30;
+  }
+}
+
+

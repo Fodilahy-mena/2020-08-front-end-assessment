@@ -1,0 +1,99 @@
+.section_features {
+  text-align: center;
+  background-color: #F4F6F9; }
+
+.features_info {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 0;
+  list-style: none; }
+
+.features_info ul {
+  list-style: none; }
+
+.features_info li {
+  padding-bottom: 2rem;
+  font-family: myLatoRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4F4F4F; }
+
+.section_features > header h4 {
+  font-family: myLatoBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px; }
+
+.video_collection,
+.notification,
+.brand_team,
+.flag_identification,
+.new_picture,
+.league_champion {
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  background-position: center; }
+
+.video_collection {
+  background-image: url(../img/icon_video_blue.svg); }
+
+.notification {
+  background-image: url(../img/icon_bell_ringing_blue.svg); }
+
+.brand_team {
+  background-image: url(../img/icon_hd_blue.svg); }
+
+.flag_identification {
+  background-image: url(../img/icon_flag_blue.svg); }
+
+.new_picture {
+  background-image: url(../img/icon_tent_blue.svg); }
+
+.league_champion {
+  background-image: url(../img/icon_graph_blue.svg); }
+
+@media (min-width: 1114px) {
+  .section_features {
+    text-align: left;
+    background-color: #00ADEE;
+    color: #FFFFFF;
+    max-width: 1114px;
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
+  .section_features h4 {
+    text-align: center; }
+  .features_info {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem; }
+  .features_info ul {
+    padding: 0;
+    list-style: inside; }
+  .features_info li {
+    color: #FFFFFF; }
+  .video_collection {
+    background-image: url(../img/icon_video_white.svg); }
+  .notification {
+    background-image: url(../img/icon_bell_ringing_white.svg); }
+  .brand_team {
+    background-image: url(../img/icon_hd_white.svg); }
+  .flag_identification {
+    background-image: url(../img/icon_flag_white.svg); }
+  .new_picture {
+    background-image: url(../img/icon_tent_white.svg); }
+  .league_champion {
+    background-image: url(../img/icon_graph_white.svg); }
+  .video_collection,
+  .notification,
+  .brand_team,
+  .flag_identification,
+  .new_picture,
+  .league_champion {
+    background-position: left; } }

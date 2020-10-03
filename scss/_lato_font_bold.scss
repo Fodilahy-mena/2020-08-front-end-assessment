@@ -1,0 +1,29 @@
+@import 'variables';
+
+@font-face {
+  font-family: myLatoBold;
+  src: local('Lato Bold'),
+       local('Lato-Bold'),
+       local('lato-bold'),
+       local('lato bold'),
+       url('#{$lato-font-path}lato-bold.#{$woff2}') format("#{$woff2}"),
+       url('#{$lato-font-path}lato-bold.#{$woff}') format("#{$woff}");
+}
+
+.heading {
+  font-family: myLatoBold;
+  letter-spacing: 0.03em;
+  color:$darkgray;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $font-size + 14px;
+  line-height: $line-height + 17px;
+}
+
+@media (min-width: $max-width-container) {
+  .heading {
+  font-size: $font-size + 20px;
+  line-height: $line-height + 25px;
+
+  }
+}
